@@ -21011,6 +21011,10 @@
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lsqlite3",
+					"-force_load",
+					"\"$(SOURCE_ROOT)/calabash.framework/calabash\"",
+					"-framework",
+					CFNetwork,
 				);
 				PRODUCT_NAME = Telegram;
 				PROVISIONING_PROFILE = "";
@@ -21092,6 +21096,10 @@
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lsqlite3",
+					"-force_load",
+					"\"$(SOURCE_ROOT)/calabash.framework/calabash\"",
+					"-framework",
+					CFNetwork,
 				);
 				PRODUCT_NAME = Telegram;
 				PROVISIONING_PROFILE = "ce29274a-b180-40d3-a08a-e3a99e02624a";
