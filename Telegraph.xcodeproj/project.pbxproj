@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B4F21FB1C4BB6630066F759 /* TelegramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4F21FA1C4BB6630066F759 /* TelegramUITests.swift */; };
+		5B79CFF21C4C0BD3009F3272 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B79CFF11C4C0BD3009F3272 /* Helper.swift */; };
 		6808EA5E1BADBAC200D8E50E /* PGCurvesTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 6808EA581BADBAC200D8E50E /* PGCurvesTool.h */; };
 		6808EA5F1BADBAC200D8E50E /* PGCurvesTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 6808EA591BADBAC200D8E50E /* PGCurvesTool.m */; };
 		6808EA601BADBAC200D8E50E /* PGFadeTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 6808EA5A1BADBAC200D8E50E /* PGFadeTool.h */; };
@@ -3218,6 +3220,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		5B4F21FD1C4BB6630066F759 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D08805A3156E8F3600311537 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D08805AB156E8F3600311537;
+			remoteInfo = Telegraph;
+		};
 		68744C1B1BB1A9F700FE6542 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D08805A3156E8F3600311537 /* Project object */;
@@ -3439,6 +3448,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5B4F21F81C4BB6620066F759 /* TelegramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TelegramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B4F21FA1C4BB6630066F759 /* TelegramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelegramUITests.swift; sourceTree = "<group>"; };
+		5B4F21FC1C4BB6630066F759 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B79CFF11C4C0BD3009F3272 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 		6808EA581BADBAC200D8E50E /* PGCurvesTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PGCurvesTool.h; path = thirdparty/PGPhotoEditor/PGCurvesTool.h; sourceTree = SOURCE_ROOT; };
 		6808EA591BADBAC200D8E50E /* PGCurvesTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PGCurvesTool.m; path = thirdparty/PGPhotoEditor/PGCurvesTool.m; sourceTree = SOURCE_ROOT; };
 		6808EA5A1BADBAC200D8E50E /* PGFadeTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PGFadeTool.h; path = thirdparty/PGPhotoEditor/PGFadeTool.h; sourceTree = SOURCE_ROOT; };
@@ -8063,6 +8076,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		5B4F21F51C4BB6620066F759 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		68744C161BB1A9F700FE6542 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -8136,6 +8156,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5B4F21F91C4BB6620066F759 /* TelegramUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5B4F21FA1C4BB6630066F759 /* TelegramUITests.swift */,
+				5B79CFF11C4C0BD3009F3272 /* Helper.swift */,
+				5B4F21FC1C4BB6630066F759 /* Info.plist */,
+			);
+			path = TelegramUITests;
+			sourceTree = "<group>";
+		};
 		6811AE231A35E2E3009309A3 /* Crop */ = {
 			isa = PBXGroup;
 			children = (
@@ -13166,6 +13196,7 @@
 				D08805B6156E8F3600311537 /* Telegraph */,
 				D02601D81A55CA2300716290 /* Share */,
 				68744C361BB1AA0600FE6542 /* Watch */,
+				5B4F21F91C4BB6620066F759 /* TelegramUITests */,
 				D08805AF156E8F3600311537 /* Frameworks */,
 				D08805AD156E8F3600311537 /* Products */,
 			);
@@ -13178,6 +13209,7 @@
 				D02601D71A55CA2300716290 /* Share.appex */,
 				68744C0D1BB1A9F700FE6542 /* watchkitapp.app */,
 				68744C191BB1A9F700FE6542 /* watchkitapp Extension.appex */,
+				5B4F21F81C4BB6620066F759 /* TelegramUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -17404,6 +17436,24 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		5B4F21F71C4BB6620066F759 /* TelegramUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B4F220E1C4BB6630066F759 /* Build configuration list for PBXNativeTarget "TelegramUITests" */;
+			buildPhases = (
+				5B4F21F41C4BB6620066F759 /* Sources */,
+				5B4F21F51C4BB6620066F759 /* Frameworks */,
+				5B4F21F61C4BB6620066F759 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B4F21FE1C4BB6630066F759 /* PBXTargetDependency */,
+			);
+			name = TelegramUITests;
+			productName = TelegramUITests;
+			productReference = 5B4F21F81C4BB6620066F759 /* TelegramUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		68744C0C1BB1A9F700FE6542 /* watchkitapp */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 68744C331BB1A9F800FE6542 /* Build configuration list for PBXNativeTarget "watchkitapp" */;
@@ -17491,8 +17541,13 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = TG;
+				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0630;
 				TargetAttributes = {
+					5B4F21F71C4BB6620066F759 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = D08805AB156E8F3600311537;
+					};
 					68744C0C1BB1A9F700FE6542 = {
 						CreatedOnToolsVersion = 7.1;
 						DevelopmentTeam = X834Q8SBVP;
@@ -17585,6 +17640,7 @@
 				D02601D61A55CA2300716290 /* Share */,
 				68744C0C1BB1A9F700FE6542 /* watchkitapp */,
 				68744C181BB1A9F700FE6542 /* watchkitapp Extension */,
+				5B4F21F71C4BB6620066F759 /* TelegramUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -17712,6 +17768,13 @@
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
+		5B4F21F61C4BB6620066F759 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		68744C0B1BB1A9F700FE6542 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -18379,6 +18442,15 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		5B4F21F41C4BB6620066F759 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B4F21FB1C4BB6630066F759 /* TelegramUITests.swift in Sources */,
+				5B79CFF21C4C0BD3009F3272 /* Helper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		68744C151BB1A9F700FE6542 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -20337,6 +20409,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		5B4F21FE1C4BB6630066F759 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D08805AB156E8F3600311537 /* Telegraph */;
+			targetProxy = 5B4F21FD1C4BB6630066F759 /* PBXContainerItemProxy */;
+		};
 		68744C1C1BB1A9F700FE6542 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 68744C181BB1A9F700FE6542 /* watchkitapp Extension */;
@@ -20636,6 +20713,57 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		5B4F21FF1C4BB6630066F759 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = TelegramUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.innovaptor.TelegramUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "ce29274a-b180-40d3-a08a-e3a99e02624a";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TEST_TARGET_NAME = Telegraph;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		5B4F22001C4BB6630066F759 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = TelegramUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.innovaptor.TelegramUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "ce29274a-b180-40d3-a08a-e3a99e02624a";
+				TEST_TARGET_NAME = Telegraph;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
 		68744C301BB1A9F800FE6542 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 93EFBF0E173DC6DA00F7B89E /* Config.xcconfig */;
@@ -21108,6 +21236,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		5B4F220E1C4BB6630066F759 /* Build configuration list for PBXNativeTarget "TelegramUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B4F21FF1C4BB6630066F759 /* Debug */,
+				5B4F22001C4BB6630066F759 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		68744C2F1BB1A9F800FE6542 /* Build configuration list for PBXNativeTarget "watchkitapp Extension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
